@@ -1,0 +1,154 @@
+.section {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    /* padding-left: 20px; */
+    overflow-y: scroll;
+}
+
+.form {
+    width: 90%;
+    background:transparent;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-top: 20px;
+    
+    /* background: rgba(255,255,255,.1); */
+    background-color: black;
+    opacity: .4;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 15px;
+    
+}
+
+.row span {
+    padding: 0 10px;
+    color: #fff;
+}
+
+.row span label {
+    text-transform: capitalize;
+}
+
+.row span input {
+    border: 1px solid gray;
+    background: transparent;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.w180 {
+    width: 195px;
+}
+
+.table {
+    /* background: tomato; */
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-top: 20px;
+
+    /* background: rgba(255,255,255,.1); */
+    background-color: black;
+    opacity: .4;
+}
+
+.visa__img {
+    width: 35px;
+    height: 30px;
+}
+
+.table tr td ul li {
+    list-style: disc;
+    color: #fff;
+    font-size: 24px;
+}
+
+.table tr td {
+    padding: 0 4px;
+}
+.gray {
+    background: gray;
+}
+.green {
+    background: green;
+}
+
+.gray , .green {
+    font-size: 12px;
+    padding: 2px;
+}
+
+
+@media (max-width:800px) {
+
+    .form {
+        width: 100%;
+        background: transparent;
+        margin: 0 auto;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+        
+    }
+    
+
+
+    .row span {
+        padding: 10px 10px;
+    }
+
+
+    .row span label {
+
+        font-size: 10PX;
+    }
+    
+
+    .row span input {
+        background: transparent;
+        height: 30px;
+        margin-top: 3px;
+        width: 100%;
+    }
+ 
+    .table {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0;
+        margin-top: 10px;
+        overflow-x: scroll;
+    }
+    
+
+    .table tr td {
+        list-style: disc;
+        color: #fff;
+        font-size: 8px;
+    }
+
+}
