@@ -3,12 +3,12 @@ import './Navbar.css'
 
 import logo from './IMAGES/zhAG7DczoD.png'
 
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import LocalMallIcon from '@material-ui/icons/LocalMall';
-import ColorLensIcon from '@material-ui/icons/ColorLens';
-import FullscreenIcon from '@material-ui/icons/Fullscreen';
+// import MailOutlineIcon from '@material-ui/icons/MailOutline';
+// import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
+// import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+// import LocalMallIcon from '@material-ui/icons/LocalMall';
+// import ColorLensIcon from '@material-ui/icons/ColorLens';
+// import FullscreenIcon from '@material-ui/icons/Fullscreen';
 import ZwIcon from "react-zwicon";
 
 function Navbar() {
@@ -24,17 +24,17 @@ function Navbar() {
             handleShow(false);
         }
     }
-    useEffect(() => {
-        window.addEventListener("scroll",transitionNavbar);
-        return () => window.removeEventListener("scroll", transitionNavbar); 
-    }, [])
+    // useEffect(() => {
+    //     window.addEventListener("scroll",transitionNavbar);
+    //     return () => window.removeEventListener("scrolly", transitionNavbar); 
+    // }, [])
     
 
     return (
     
 
         <div className={`nav ${show && "nav__black"}`} id="m"> 
-       <div> <p id="menu">MENU</p></div>
+       {/* <div > <p id="menu">MENU</p></div> */}
            
             <div className="logo"><img src={logo} /></div>
             <div className="menu__links">

@@ -15,27 +15,37 @@ import LocalMallIcon from '@material-ui/icons/LocalMall';
 import ContactSupportIcon from '@material-ui/icons/ContactSupport';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
-
+import ZwIcon from "react-zwicon";
+import {FaUserSecret,FaPaypal} from "react-icons/fa";
 function Sidebar() {
 
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="navigation">
+        
+        <div className="navigation" >
+        
+           <br></br>
 
             <div className="main__menu links__cont" style={{ display: open ? "flex" : "block", left: open ? "0" : "-100%" }}>
-
+      
                 <div className="user__details">
                     <div><span><img className="annoy__icon" src={anonymous} /></span></div>
                     <div className="user__title">
                         <span>subhanakram300<br /><span className="user">User</span></span>
+                        {/* <FontAwesomeIcon icon="coffee"></FontAwesomeIcon> */}
+                        <i class="fa fa-user-secret" aria-hidden="true" style={{fontsize:"30px"}}></i>
                     </div>
                 </div>
 
                 <ul>
                     <li>
                         <a href="#">
-                            <span className="icon"><PublicIcon /></span>
+                            <span className="icon">
+                                {/* <PublicIcon /> */}
+                                <ZwIcon icon="earth" style={{fontSize:"22px"}} />
+                                
+                                </span>
                             <span className="title">News</span>
                         </a>
                     </li>
@@ -43,7 +53,9 @@ function Sidebar() {
                 <ul>
                     <li>
                         <a href="#">
-                            <span className="icon"><CreditCardIcon /></span>
+                            <span className="icon">
+                                  <ZwIcon icon="credit-card" style={{fontSize:"22px"}} />
+                            </span>
                             <span className="title">CVV</span>
                         </a>
                     </li>
@@ -51,7 +63,11 @@ function Sidebar() {
                 <ul>
                     <li>
                         <a href="#">
-                            <span className="icon"><StorefrontIcon /></span>
+                            <span className="icon">
+                                {/* <StorefrontIcon /> */}
+                                <ZwIcon icon="store"  style={{fontSize:"23px"}} />
+                            
+                            </span>
                             <span className="title">Dumps</span>
                         </a>
                     </li>
@@ -59,7 +75,10 @@ function Sidebar() {
                 <ul>
                     <li>
                         <a href="#">
-                            <span className="icon"><DesktopWindowsOutlinedIcon /></span>
+                            <span className="icon">
+                            <ZwIcon icon="desktop" style={{fontSize:"22px"}} />
+                            
+                            </span>
                             <span className="title">RDP</span>
                         </a>
                     </li>
@@ -67,7 +86,9 @@ function Sidebar() {
                 <ul>
                     <li>
                         <a href="#">
-                            <span className="icon"><SecurityOutlinedIcon /></span>
+                            <span className="icon">
+                                <FaUserSecret style={{color:"wheat"}} />
+                            </span>
                             <span className="title">Stealer Logs</span>
                         </a>
                     </li>
@@ -75,7 +96,9 @@ function Sidebar() {
                 <ul>
                     <li>
                         <a href="#">
-                            <span className="icon"><MonetizationOnOutlinedIcon /></span>
+                            <span className="icon">
+                                <FaPaypal />
+                            </span>
                             <span className="title">Paypal</span>
                         </a>
                     </li>
@@ -83,7 +106,9 @@ function Sidebar() {
                 <ul>
                     <li>
                         <a href="#">
-                            <span className="icon"><AssignmentTurnedInOutlinedIcon /></span>
+                            <span className="icon">
+                            <ZwIcon icon="task" style={{fontSize:"22px",color:"white"}} />
+                            </span>
                             <span className="title">Checkers</span>
                         </a>
                     </li>
@@ -91,7 +116,9 @@ function Sidebar() {
                 <ul>
                     <li>
                         <a href="#">
-                            <span className="icon"><SettingsIcon /></span>
+                            <span className="icon">
+                            <ZwIcon icon="cog" style={{fontSize:"22px"}} />
+                            </span>
                             <span className="title">Tools</span>
                         </a>
                     </li>
@@ -99,7 +126,9 @@ function Sidebar() {
                 <ul>
                     <li>
                         <a href="#">
-                            <span className="icon"><LocalMallIcon /></span>
+                            <span className="icon">
+                            <ZwIcon icon="shopping-bag" style={{fontSize:"22px"}} />
+                            </span>
                             <span className="title">My Purchases</span>
                         </a>
                     </li>
@@ -107,7 +136,9 @@ function Sidebar() {
                 <ul>
                     <li>
                         <a href="#">
-                            <span className="icon"><ContactSupportIcon /></span>
+                            <span className="icon">
+                            <ZwIcon icon="lifebelt" style={{fontSize:"22px"}} />
+                            </span>
                             <span className="title">Support</span>
                         </a>
                     </li>

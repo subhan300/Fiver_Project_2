@@ -13,12 +13,14 @@
     position: fixed;
     top: 70;
     z-index: 111; */
-   padding-top:9px
+   padding-top:9px;
+   transition: all 0.2s ease-in-out;
+   
 }
 
 .logo {
     padding: 20px 0;
-    /* padding-left: 20px; */
+    padding-left: 20px;
     margin-right:600px;
 
 }
@@ -62,14 +64,7 @@
 
 @media (max-width:800px) {
 
-    #menu{
-    font-size:11px;margin-top:18px;margin-left:8px;color:white;
-        font-family:sans-serif;
-        
-        
-
-    }
-
+.nav{padding-top: 8%;}
 .logo {
     display: none;
     padding: 20px 0;
@@ -89,6 +84,7 @@
 } */
 .menu__links {
     margin-left: auto;
+    margin-top:-8%;
 }
 
 

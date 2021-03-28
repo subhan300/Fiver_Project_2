@@ -54,7 +54,7 @@ function Section() {
                     </span>
                 </div>
 
-                <div className="row">
+                <div className="row" >
                     <span> <label>last 4:</label><br />
                         <input className="w150" type="list" placeholder="All" />
                     </span>
@@ -99,6 +99,7 @@ function Section() {
                             <th>price</th>
                             <th>action</th>
                         </tr>
+
                     </thead>
                     <tbody>
                         <tr>
@@ -110,7 +111,8 @@ function Section() {
                             <td>201</td>
                             <td>11/23</td>
                             <td><RemoveFromQueueIcon/></td>
-                            <td>(26-03-2021) world-mix #2<br/><span>no refund</span></td>
+                            <td  className="world_size" style={{fontSize:"13px"}}>(26-03-2021) world-mix#2<br/><span className="refund_size" style={{fontSize:"11px"}}>no refund</span></td>
+                
                             <td><img src={america} className="visa__img" /></td>
                             <td>-</td>
                             <td>-</td>
@@ -129,7 +131,7 @@ function Section() {
                             <td>201</td>
                             <td>11/23</td>
                             <td><RemoveFromQueueIcon/></td>
-                            <td>(26-03-2021) world-mix #2<br/><span>no refund</span></td>
+                            <td className="world_size" style={{fontSize:"13px"}}>(26-03-2021) world-mix #2<br/><span className="refund_size" style={{fontSize:"11px"}}>no refund</span></td>
                             <td><img src={america} className="visa__img" /></td>
                             <td>-</td>
                             <td>-</td>
@@ -148,7 +150,7 @@ function Section() {
                             <td>201</td>
                             <td>11/23</td>
                             <td><RemoveFromQueueIcon/></td>
-                            <td>(26-03-2021) world-mix #2<br/><span>no refund</span></td>
+                            <td class="world_size" style={{fontSize:"13px"}}>(26-03-2021) world-mix #2<br/><span className="refund_size" style={{fontSize:"11px"}}>no refund</span></td>
                             <td><img src={america} className="visa__img" /></td>
                             <td>-</td>
                             <td>-</td>
@@ -167,7 +169,7 @@ function Section() {
                             <td>201</td>
                             <td>11/23</td>
                             <td><RemoveFromQueueIcon/></td>
-                            <td>(26-03-2021) world-mix #2<br/><span>no refund</span></td>
+                            <td  class="world_size" style={{fontSize:"13px"}}>(26-03-2021) world-mix #2<br/><span  className="refund_size" style={{fontSize:"11px"}} >no refund</span></td>
                             <td><img src={america} className="visa__img" /></td>
                             <td>-</td>
                             <td>-</td>
@@ -186,7 +188,7 @@ function Section() {
                             <td>201</td>
                             <td>11/23</td>
                             <td><RemoveFromQueueIcon/></td>
-                            <td>(26-03-2021) world-mix #2<br/><span>no refund</span></td>
+                            <td className="world_size" style={{fontSize:"13px"}}>(26-03-2021) world-mix #2<br/><span  className="refund_size" style={{fontSize:"11px"}}>no refund</span></td>
                             <td><img src={america} className="visa__img" /></td>
                             <td>-</td>
                             <td>-</td>
@@ -205,7 +207,7 @@ function Section() {
                             <td>201</td>
                             <td>11/23</td>
                             <td><RemoveFromQueueIcon/></td>
-                            <td>(26-03-2021) world-mix #2<br/><span>no refund</span></td>
+                            <td className="world_size" style={{fontSize:"13px"}}>(26-03-2021) world-mix #2<br/><span  className="refund_size" style={{fontSize:"11px"}}>no refund</span></td>
                             <td><img src={america} className="visa__img" /></td>
                             <td>-</td>
                             <td>-</td>
@@ -224,7 +226,7 @@ function Section() {
                             <td>201</td>
                             <td>11/23</td>
                             <td><RemoveFromQueueIcon/></td>
-                            <td>(26-03-2021) world-mix #2<br/><span>no refund</span></td>
+                            <td className="world_size" style={{fontSize:"13px"}}>(26-03-2021) world-mix #2<br/><span>no refund</span></td>
                             <td><img src={america} className="visa__img" /></td>
                             <td>-</td>
                             <td>-</td>
@@ -234,7 +236,7 @@ function Section() {
                             <td><button>buy</button></td>
                         </tr>
 
-                        <tr>
+                        {/* <tr>
                             <td><ul><li></li></ul></td>
                             <td><img src={visa} className="visa__img"/></td>
                             <td>414734</td>
@@ -289,7 +291,7 @@ function Section() {
                             <td><span className="green">Easy</span><span className="grey">dump</span><br/>platinum</td>
                             <td>$9.46</td>
                             <td><button>buy</button></td>
-                        </tr>
+                        </tr> */}
                     </tbody>
                 </table>
             </div>
