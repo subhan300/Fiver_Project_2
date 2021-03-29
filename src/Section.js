@@ -236,7 +236,7 @@ function Section() {
                             <td><button>buy</button></td>
                         </tr>
 
-                        {/* <tr>
+                        <tr>
                             <td><ul><li></li></ul></td>
                             <td><img src={visa} className="visa__img"/></td>
                             <td>414734</td>
@@ -291,7 +291,7 @@ function Section() {
                             <td><span className="green">Easy</span><span className="grey">dump</span><br/>platinum</td>
                             <td>$9.46</td>
                             <td><button>buy</button></td>
-                        </tr> */}
+                        </tr>
                     </tbody>
                 </table>
             </div>

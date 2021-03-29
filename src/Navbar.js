@@ -20,20 +20,20 @@ function Navbar() {
             handleShow(true);
          
         }
-        else {
+        else if(window.scrollY < 40){
             handleShow(false);
         }
     }
-    // useEffect(() => {
-    //     window.addEventListener("scroll",transitionNavbar);
-    //     return () => window.removeEventListener("scrolly", transitionNavbar); 
-    // }, [])
+    useEffect(() => {
+        window.addEventListener("scroll",transitionNavbar);
+        // return () => window.removeEventListener("scrolly", transitionNavbar); 
+    }, [])
     
 
     return (
     
 
-        <div className={`nav ${show && "nav__black"}`} id="m"> 
+        <div className={`nav ${show ?"nav__black":"nav_white"}`} id="m"> 
        {/* <div > <p id="menu">MENU</p></div> */}
            
             <div className="logo"><img src={logo} /></div>

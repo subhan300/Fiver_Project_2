@@ -23,7 +23,7 @@ function Sidebar() {
 
     return (
         
-        <div className="navigation" >
+        <div className="navigation" id="sidebar">
         
            <br></br>
 

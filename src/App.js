@@ -15,7 +15,9 @@ function App() {
       <div className="d-flex">
         <Sidebar />
         <Section />
+      
       </div>
+   
     </div>
   );
 }

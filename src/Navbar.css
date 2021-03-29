@@ -15,6 +15,8 @@
     z-index: 111; */
    padding-top:9px;
    transition: all 0.2s ease-in-out;
+   position:fixed;
+  
    
 }
 
@@ -58,13 +60,16 @@
 
 
 .nav__black {
-    background-color: #111;
+    background-color: black;opacity: 1;z-index: 1;
 }
+.nav_white{
+    background-color: #111;opacity: .4;
 
+}
 
 @media (max-width:800px) {
 
-.nav{padding-top: 8%;}
+.nav{padding-top:8%;position: relative;}
 .logo {
     display: none;
     padding: 20px 0;
